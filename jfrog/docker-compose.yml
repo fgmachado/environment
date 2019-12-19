@@ -1,0 +1,9 @@
+version: "3"
+services:
+  jfrog:
+    image: "docker.bintray.io/jfrog/artifactory-oss:latest"
+    hostname: "jfrog"
+    container_name: "jfrog"
+    ports:
+      - "8081:8081"
+    
