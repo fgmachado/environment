@@ -7,7 +7,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_DATABASE: 'fuel'
-      MYSQL_USER: 'fuel'
-      MYSQL_PASSWORD: 'fuel'
-      MYSQL_ROOT_PASSWORD: 'fuel'
+      MYSQL_DATABASE: 'my_database'
+      MYSQL_USER: 'my_user'
+      MYSQL_PASSWORD: 'my_pass'
+      MYSQL_ROOT_PASSWORD: 'my_root_pass'
